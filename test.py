@@ -1,6 +1,6 @@
 import secrets
 import math
-from helpfunctions import hash_to_prime, is_prime, shamir_trick
+from rsa_accumulator.helpfunctions import hash_to_prime, is_prime, shamir_trick
 from main import setup, add, prove_membership, delete, verify_membership, \
         prove_membership_with_NIPoE, verify_exponentiation, batch_prove_membership, batch_verify_membership, \
         batch_prove_membership_with_NIPoE, batch_verify_membership_with_NIPoE, batch_add, \
